@@ -35,6 +35,7 @@ public enum ValidationPattern: String {
     case ContainsCapital = "^.*?[A-Z].*?$"
     case ContainsOnlyNumbers = "^[0-9]*$"
     case ContainsOnlyCharacters = "^[a-zA-Z]*$"
+    case ContainsOnlyCharactersAndSpaces = "^[a-zA-Z ]*$"
 }
 
 public struct ValidationRulePattern: ValidationRule {
